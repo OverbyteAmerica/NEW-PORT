@@ -1,0 +1,12 @@
+:root{--bg:#04060a;--grid:#071029;--fg:#cfe8ff}
+*{box-sizing:border-box}
+body{margin:0;font-family: 'Courier New', 
+monospace;background:linear-gradient(180deg,var(--bg),#02030a);color:var(--fg);height:100vh}
+.topbar{display:flex;align-items:center;gap:12px;padding:12px 
+18px;background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent);border-bottom:1px solid rgba(255,255,255,0.02)}
+.back{color:var(--fg);text-decoration:none;opacity:0.85}
+.title{font-weight:700}
+.game-wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px}
+#game-canvas{background:linear-gradient(180deg,#00111f,#000815);border-radius:8px;box-shadow:0 8px 40px 
+rgba(2,8,16,0.9);image-rendering:pixelated}
+.hint{margin-top:10px;opacity:0.7;font-size:13px}

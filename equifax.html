@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equifax Breach Case Study</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="crt">
+
+    <img src="equifax-header.png" class="dashboard-header-img">
+
+    <h1 class="dashboard-title">EQUIFAX 2017 BREACH</h1>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card">
+            <h2>The Vulnerability</h2>
+            <p>Apache Struts CVE-2017-5638 OGNL injection exploited through content-type headers.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Attack Path</h2>
+            <p>ACIS application → OGNL payload → code execution → lateral movement → 9,000+ 
+queries.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Why It Happened</h2>
+            <p>Missing patch mgmt, expired TLS cert, weak segmentation, blind monitoring.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Fixes & Prevention</h2>
+            <p>Automated patching, WAF virtual patching, segmentation, DLP, certificate automation, 
+SIEM.</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Impact</h2>
+            <p>147M+ records: SSN, DOB, addresses, payment info, license data.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
